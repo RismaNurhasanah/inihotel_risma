@@ -21,14 +21,14 @@
                             <td class="text-start"><input class="form-control" type="text" id="keterangan" name="keterangan" value="<?= $jenis['keterangan'] ?>"></td>
                         </tr>
                         <tr>
-                            <td class="text-start" width="15%">Harga</td>
-                            <td>:</td>
-                            <td class="text-start"><input class="form-control" type="text" id="harga" name="harga" value="<?= $jenis['harga'] ?>" ></td>
-                        </tr>
-                        <tr>
                             <td class="text-start" width="15%">Foto</td>
                             <td>:</td>
                             <td class="text-start"><input class="form-control" type="text" id="foto" name="foto" value="<?= $jenis['foto'] ?>" ></td>
+                        </tr>
+                        <tr>
+                            <td class="text-start" width="15%">Harga</td>
+                            <td>:</td>
+                            <td class="text-start"><input class="form-control" type="text" id="harga" name="harga" value="<?= $jenis['harga'] ?>" ></td>
                         </tr>
                         <tr>
                             <td colspan="3"><button type="submit" class="btn btn-primary">update</butoon>

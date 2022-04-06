@@ -68,7 +68,7 @@ class Transaksi extends CI_Controller {
             );
 
             $this->db->where($where);
-            $this->db->update('tbl_transaksi_', $data);
+            $this->db->update('tbl_transaksi', $data);
 
             redirect(base_url("/transaksi"));
     }public function hapus($id){

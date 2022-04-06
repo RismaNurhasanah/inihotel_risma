@@ -49,11 +49,11 @@ class jenis extends CI_Controller {
 		$this->load->view('ph_admin/footer');
 		
     }function proses_edit(){
-        $id_jenis = $this->input->post('id_jenis');
+        $id_jenis 	= $this->input->post('id_jenis');
         $nama_jenis = $this->input->post('nama_jenis');
 		$keterangan = $this->input->post('keterangan');
-        $harga = $this->input->post('harga');
-        $foto = $this->input->post('foto');
+        $harga 		= $this->input->post('harga');
+        $foto	 	= $this->input->post('foto');
 
             $data =array(
                 'nama_jenis' => $nama_jenis,

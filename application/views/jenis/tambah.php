@@ -21,15 +21,15 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Harga</td>
-                                    <td>:</td>
-                                    <td><input type="text" class="form-control" maxlength="50" name="harga" id="harga">
-                                    </td>
-                                </tr>
-                                <tr>
                                     <td>Foto</td>
                                     <td>:</td>
                                     <td><input type="text" class="form-control" maxlength="50" name="foto" id="foto">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Harga</td>
+                                    <td>:</td>
+                                    <td><input type="text" class="form-control" maxlength="50" name="harga" id="harga">
                                     </td>
                                 </tr>
                                 <tr>
