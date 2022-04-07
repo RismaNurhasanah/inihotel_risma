@@ -1,3 +1,7 @@
+<!-- Begin Page Content -->
+<div class="container-fluid">
+<!-- Page Heading -->
+ 
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-6">
@@ -62,11 +66,9 @@
                                     <td><input type="text" class="form-control" maxlength="50" name="no_telp" id="no_telp">
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td colspan="3">
-                                        <input type="submit" class="btn- btn-secondary" value="Simpan" >
-                                    </td>
                                 </tr>
+                                    <td colspan="3"><button type="submit" class="btn btn-dark" value="simpan">simpan</butoon></td>
+                                <tr>
                             </table>
                         </form>
                     </div>
@@ -75,3 +77,9 @@
         </div>
     </div>
 </div>
+
+</div>
+        <!-- /.container-fluid -->
+
+    </div>
+    <!-- End of Main Content -->

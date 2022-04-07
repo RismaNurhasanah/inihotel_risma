@@ -1,3 +1,8 @@
+<!-- Begin Page Content -->
+<div class="container-fluid">
+<!-- Page Heading -->
+ 
+
 <section class="page-section bg-light" id="team">
     <div class="container">
         <div class="row">
@@ -65,3 +70,9 @@
         </div>
     </div>
 </section>
+
+</div>
+        <!-- /.container-fluid -->
+
+    </div>
+    <!-- End of Main Content -->

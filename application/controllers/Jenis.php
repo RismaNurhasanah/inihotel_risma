@@ -46,7 +46,6 @@ class jenis extends CI_Controller {
 		$this->load->view('ph_admin/header');
 		$this->load->view('ph_admin/js');
 		$this->load->view('ph_admin/footer');
-		$this->load->view('ph_admin/footer');
 		
     }function proses_edit(){
         $id_jenis 	= $this->input->post('id_jenis');

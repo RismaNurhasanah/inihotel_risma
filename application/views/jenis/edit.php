@@ -1,3 +1,7 @@
+<!-- Begin Page Content -->
+<div class="container-fluid">
+<!-- Page Heading -->
+
 <section class="page-section bg-light" id="team">
     <div class="container">
         <div class="row">
@@ -23,7 +27,7 @@
                         <tr>
                             <td class="text-start" width="15%">Foto</td>
                             <td>:</td>
-                            <td class="text-start"><input class="form-control" type="text" id="foto" name="foto" value="<?= $jenis['foto'] ?>" ></td>
+                            <td class="text-start"><input type="file" id="foto" name="foto" class="form-control" size="20" required="" value="<?php echo $jenis['foto']; ?>"></td>
                         </tr>
                         <tr>
                             <td class="text-start" width="15%">Harga</td>
@@ -31,8 +35,7 @@
                             <td class="text-start"><input class="form-control" type="text" id="harga" name="harga" value="<?= $jenis['harga'] ?>" ></td>
                         </tr>
                         <tr>
-                            <td colspan="3"><button type="submit" class="btn btn-primary">update</butoon>
-                           </td>
+                            <td colspan="3"><button type="submit" class="btn btn-dark">update</butoon></td>
                         </tr>
                     </tbody>
                 </table>
@@ -40,3 +43,9 @@
         </div>
     </div>
 </section>
+
+</div>
+        <!-- /.container-fluid -->
+
+    </div>
+    <!-- End of Main Content -->

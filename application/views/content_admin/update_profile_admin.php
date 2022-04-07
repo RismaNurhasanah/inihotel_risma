@@ -4,7 +4,7 @@
             <div class="col-lg-12 text-center">
                 <h2 class="section-heding text-uppercase" >Update Profile</h2>
                 <h3 class="section-subheading text-muted" >Selamat Datang Di Hotel Risma</h3>
-                <form action="<?= base_url('index.php/user/proses_update_profile')?>" method="post">
+                <form action="<?= base_url('user/proses_update_profile')?>" method="post">
                 <table class="table table-bordered table-hover">
                     <tbody>
                         <tr>

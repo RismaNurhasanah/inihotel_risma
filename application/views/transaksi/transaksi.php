@@ -6,7 +6,7 @@
 			<section class="page-section bg-light" id="team">
 				<div class="card shadow mb-4">
                     <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Data Konsumen</h6>
+                            <h6 class="m-0 font-weight-bold text-primary">Data Transaksi</h6>
                             <a href="<?= base_url('transaksi/tambah')?>" >
                             <button class="btn btn-sm btn-info float-right " type=""><i class="fas fa_plus fa-sm">Tambah Data Transaksi</i></button></a>
                         </div>

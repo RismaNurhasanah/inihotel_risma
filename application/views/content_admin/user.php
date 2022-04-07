@@ -27,9 +27,9 @@
 									</tr>
 								</tbody>
 							</table>
-							Klik <a href="<?= base_url('index.php/user/update_profile')?>">disini</a>untuk update profile anda<br>
+							Klik <a href="<?= base_url('/user/update_profile')?>">disini</a>untuk update profile anda<br>
 
-							Klik <a href="<?= base_url('index.php/user/ganti_password')?>">disini</a>untuk mengganti password anda<br>
+							Klik <a href="<?= base_url('/user/ganti_password')?>">disini</a>untuk mengganti password anda<br>
 							
 							</div>
 						</div>

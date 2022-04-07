@@ -6,7 +6,7 @@
             <div class="col-lg-12 text-center">
                 <h2 class="section-heding text-uppercase" >Ganti Password</h2>
                 <h3 class="section-subheading text-muted" >Selamat Datang Di Hotel Risma</h3>
-                <form action="<?= base_url('index.php/user/proses_ganti_password')?>" method="post">
+                <form action="<?= base_url('user/proses_ganti_password')?>" method="post">
                 <table class="table table-bordered table-hover">
                     <tbody>
                         <tr>
