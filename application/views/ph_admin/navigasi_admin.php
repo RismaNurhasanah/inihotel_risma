@@ -8,7 +8,7 @@
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
         <div class="sidebar-brand-icon rotate-n-15">
-            <i class="fas fa-laugh-wink"></i>
+            <i class="fas fa-hotel"></i>
         </div>
         <div class="sidebar-brand-text mx-3">InI <sup>Hotel</sup></div>
     </a>
@@ -45,28 +45,28 @@
     <!-- Nav Item - Jenis Kamar -->
     <li class="nav-item">
         <a class="nav-link" href="<?= base_url('/Kamar'); ?>">
-            <i class="fas fa-fw fa-table"></i>
+            <i class="fas fa-fw fa-folder-open"></i>
             <span>Data Kamar</span></a>
     </li>
 
     <!-- Nav Item - Kamar -->
     <li class="nav-item">
         <a class="nav-link" href="<?= base_url("/jenis"); ?>">
-            <i class="fas fa-fw fa-user"></i>
+            <i class="fas fa-fw fa-list-alt"></i>
             <span>Jenis Kamar</span></a>
     </li>
 
     <!-- Nav Item - Konsumen -->
     <li class="nav-item">
         <a class="nav-link" href="<?= base_url('/konsumen'); ?>">
-            <i class="fas fa-fw fa-user"></i>
+            <i class="fas fa-fw fa-users"></i>
             <span>Konsumen</span></a>
     </li>
 
     <!-- Nav Item - Transaksi -->
     <li class="nav-item">
         <a class="nav-link" href="<?= base_url('/transaksi'); ?>">
-            <i class="fas fa-fw fa-user"></i>
+            <i class="fas fa-fw fa-credit-card"></i>
             <span>Transaksi</span></a>
     </li>
     <!-- Nav Item - Logout -->

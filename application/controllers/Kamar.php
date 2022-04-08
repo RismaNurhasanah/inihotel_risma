@@ -47,7 +47,7 @@ class Kamar extends CI_Controller {
 		$this->load->view('ph_admin/footer');
 		
     }function proses_edit(){
-        $id = $this->input->post('id');
+        $id_kamar = $this->input->post('id_kamar');
         $no_kamar = $this->input->post('no_kamar');
 		$id_jenis = $this->input->post('id_jenis');
         $ket_kamar = $this->input->post('ket_kamar');
@@ -59,16 +59,16 @@ class Kamar extends CI_Controller {
             );
 
             $where =array(
-                'id' => $id
+                'id_kamar' => $id_kamar
             );
 
             $this->db->where($where);
             $this->db->update('tbl_kamar', $data);
 
             redirect(base_url("/kamar"));
-    }public function hapus($id){
-		$id = $id;
-		$this->db->delete('tbl_kamar', ['id' => $id]);
+    }public function hapus($id_kamar){
+		$id_kamar = $id_kamar;
+		$this->db->delete('tbl_kamar', ['id_kamar' => $id_kamar]);
 		redirect('/kamar');
 	}
 }

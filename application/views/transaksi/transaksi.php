@@ -20,7 +20,7 @@
                                 <thead>
                                         <tr>
                                             <th>No</th>
-                                            <th>Nama User</th>
+                                            <th>Nama Admin</th>
                                             <th>Nama Konsumen</th>
                                             <th>Tanggal Transaksi </th>
                                             <th>Jenis</th>
@@ -31,7 +31,7 @@
                                 <tfoot>
                                         <tr>
                                             <th>No</th>
-                                            <th>Nama User</th>
+                                            <th>Nama Admin</th>
                                             <th>Nama Konsumen</th>
                                             <th>Tanggal Transaksi </th>
                                             <th>Jenis</th>
@@ -45,12 +45,12 @@
                                     <tr>
                                         <th><?= $no?></th>
                                         <th><?= $t->id_user?></th>
-                                        <th><?= $t->konsumen?></th>
+                                        <th><?= $t->id_konsumen?></th>
                                         <th><?= $t->tgl?></th>
                                         <th><?= $t->id_jenis?></th>
                                         <th><?= $t->durasi?></th>
-                                        <th><a href="<?= base_url('/transaksi/edit/'.$t->id) ?>"><i class="fas fa-edit"></a></th>
-                                        <th><a href="<?= base_url('/transaksi/hapus/'.$t->id) ?>"><i class="fas fa-trash"></a></th>
+                                        <th><a href="<?= base_url('/transaksi/edit/'.$t->id_transaksi) ?>"><i class="fas fa-edit"></a></th>
+                                        <th><a href="<?= base_url('/transaksi/hapus/'.$t->id_transaksi) ?>"><i class="fas fa-trash"></a></th>
                                     </tr>
                                     <?php $no++; }?>
                                 </tbody>

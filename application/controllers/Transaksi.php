@@ -26,7 +26,7 @@ class Transaksi extends CI_Controller {
 	  $add =
 	  [
 		  'id_user'     =>  $this->input->post('id_user'),
-		  'konsumen'    =>  $this->input->post('konsumen'),
+		  'id_konsumen' =>  $this->input->post('id_konsumen'),
 		  'tgl'   		=>  $this->input->post('tgl'),
 		  'id_jenis'   	=>  $this->input->post('id_jenis'),
 		  'durasi'   	=>  $this->input->post('durasi'),
@@ -47,32 +47,32 @@ class Transaksi extends CI_Controller {
 		$this->load->view('ph_admin/footer');
 		
     }function proses_edit(){
-        $id 		= $this->input->post('id');
-        $id_user 	= $this->input->post('id_user');
-		$konsumen 	= $this->input->post('konsumen');
-        $tgl 		= $this->input->post('tgl');
-        $id_jenis 	= $this->input->post('id_jenis');
-		$durasi 	= $this->input->post('durasi');
+        $id_transaksi 		= $this->input->post('id_transaksi');
+        $id_user 			= $this->input->post('id_user');
+		$id_konsumen 		= $this->input->post('id_konsumen');
+        $tgl 				= $this->input->post('tgl');
+        $id_jenis 			= $this->input->post('id_jenis');
+		$durasi 			= $this->input->post('durasi');
 
             $data =array(
-                'id_user' 	=> $id_user,
-				'konsumen' 	=> $konsumen,
-                'tgl' 		=> $tgl,
-				'id_jenis' 	=> $id_jenis,
-				'durasi' 	=> $durasi
+                'id_user' 			=> $id_user,
+				'id_konsumen' 		=> $id_konsumen,
+                'tgl' 				=> $tgl,
+				'id_jenis' 			=> $id_jenis,
+				'durasi' 			=> $durasi,
             );
 
             $where =array(
-                'id' => $id
+                'id_transaksi' => $id_transaksi
             );
 
             $this->db->where($where);
             $this->db->update('tbl_transaksi', $data);
 
             redirect(base_url("/transaksi"));
-    }public function hapus($id){
-		$id = $id;
-		$this->db->delete('tbl_transaksi', ['id' => $id]);
+    }public function hapus($id_transaksi){
+		$id_transaksi = $id_transaksi;
+		$this->db->delete('tbl_transaksi', ['id_transaksi' => $id_transaksi]);
 		redirect('/transaksi');
 	}
 }

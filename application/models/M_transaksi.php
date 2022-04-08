@@ -3,8 +3,8 @@
         function transaksi(){ 
             return $this->db->get('tbl_transaksi'); 
         }
-        function edit($id){
-            $this->db->where('id', $id);
+        function edit($id_transaksi){
+            $this->db->where('id_transaksi', $id_transaksi);
             return $this->db->get('tbl_transaksi');
         }
     }

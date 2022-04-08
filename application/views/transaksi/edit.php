@@ -12,18 +12,16 @@
                 <table class="table table-bordered table-hover">
                     <tbody>
                         <tr>
-                            <td class="text-start" width="15%">No transaksi</td>
+                            <td class="text-start" width="15%">Nama Admin</td>
                             <td>:</td>
                             <td class="text-start">
-                                <input type="hidden" name="id" value="<?= $transaksi['id'] ?>">
-                                <input class="form-control" type="text" id="id_user "name="id_user" value="<?= $transaksi['id_user'] ?>"readonly>
-
-                        </td>
+                                <input type="hidden" name="id_transaksi" value="<?= $transaksi['id_transaksi'] ?>">
+                                <input class="form-control" type="text" id="id_user "name="id_user" value="<?= $transaksi['id_user'] ?>"readonly></td>
                         </tr>
                         <tr>
-                            <td class="text-start" width="15%">Jenis</td>
+                            <td class="text-start" width="15%">Nama Konsumen</td>
                             <td>:</td>
-                            <td class="text-start"><input class="form-control" type="text" id="konsumen" name="konsumen" value="<?= $transaksi['konsumen'] ?>"></td>
+                            <td class="text-start"><input class="form-control" type="text" id="id_konsumen" name="id_konsumen" value="<?= $transaksi['id_konsumen'] ?>"></td>
                         </tr>
                         <tr>
                             <td class="text-start" width="15%">Tanggal</td>
@@ -31,7 +29,7 @@
                             <td class="text-start"><input class="form-control" type="date" id="tgl" name="tgl" value="<?= $transaksi['tgl'] ?>" ></td>
                         </tr>
                         <tr>
-                            <td class="text-start" width="15%">Jenia</td>
+                            <td class="text-start" width="15%">Jenis</td>
                             <td>:</td>
                             <td class="text-start"><input class="form-control" type="text" id="id_jenis" name="id_jenis" value="<?= $transaksi['id_jenis'] ?>" ></td>
                         </tr>

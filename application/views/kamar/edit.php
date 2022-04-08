@@ -15,7 +15,7 @@
                             <td class="text-start" width="15%">No Kamar</td>
                             <td>:</td>
                             <td class="text-start">
-                                <input type="hidden" name="id" value="<?= $kamar['id'] ?>">
+                                <input type="hidden" name="id_kamar" value="<?= $kamar['id_kamar'] ?>">
                                 <input class="form-control" type="text" id="no_kamar "name="no_kamar" value="<?= $kamar['no_kamar'] ?>"readonly>
 
                         </td>

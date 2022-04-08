@@ -35,8 +35,8 @@
                                 <th><?= $k->no_kamar ?></th>
                                 <th><?= $k->id_jenis ?></th>
                                 <th><?= $k->ket_kamar ?></th>
-                                <th><a href="<?= base_url('/kamar/edit/' . $k->id) ?>"><i class="fas fa-edit"></a></th>
-                                <th><a href="<?= base_url('/kamar/hapus/' . $k->id) ?>"><i class="fas fa-trash"></a></th>
+                                <th><a href="<?= base_url('/kamar/edit/' . $k->id_kamar) ?>"><i class="fas fa-edit"></a></th>
+                                <th><a href="<?= base_url('/kamar/hapus/' . $k->id_kamar) ?>"><i class="fas fa-trash"></a></th>
                             </tr>
                         <?php $no++;
                         } ?>

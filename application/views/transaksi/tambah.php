@@ -13,15 +13,15 @@
                         <form action="proses_tambah" method="POST">
                             <table class="table">
                                 <tr>
-                                    <td>No Kamar</td>
+                                    <td>Nama Admin</td>
                                     <td>:</td>
                                     <td><input type="text" class="form-control" maxlength="50" name="id_user" id="id_user">
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Jenis</td>
+                                    <td>Konsumen</td>
                                     <td>:</td>
-                                    <td><input type="text" class="form-control" maxlength="50" name="konsumen" id="konsumen">
+                                    <td><input type="text" class="form-control" maxlength="50" name="id_konsumen" id="id_konsumen">
                                     </td>
                                 </tr>
                                 <tr>

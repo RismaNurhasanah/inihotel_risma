@@ -3,8 +3,8 @@
         function kamar(){ 
             return $this->db->get('tbl_kamar'); 
         }
-        function edit($id){
-            $this->db->where('id', $id);
+        function edit($id_kamar){
+            $this->db->where('id_kamar', $id_kamar);
             return $this->db->get('tbl_kamar');
         }
     }
