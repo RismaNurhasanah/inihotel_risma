@@ -51,6 +51,7 @@
       $this->load->view('ph_admin/footer');
     }
     function proses_edit(){
+        $id_konsumen    = $this->input->post('id_konsumen');
         $email          = $this->input->post('email');
         $nama_depan     = $this->input->post('nama_depan');
         $nama_belakang  = $this->input->post('nama_belakang');
@@ -62,6 +63,7 @@
         $no_telp        = $this->input->post('no_telp');
   
         $data =array(
+          'email'         => $email,
           'nama_depan'    => $nama_depan,
           'nama_belakang' => $nama_belakang,
           'alamat'        => $alamat,
@@ -73,19 +75,19 @@
       );
   
       $where =array(
-          'email' => $email
+          'id_konsumen'   => $id_konsumen
       );
   
       $this->db->where($where);
       $this->db->update('tbl_konsumen', $data);
   
       redirect(base_url("konsumen"));
-    }
-      public function hapus($id_konsumen){
-        $id_konsumen = $id_konsumen;
-        $this->db->delete('tbl_konsumen', ['id_konsumen' => $id_konsumen]);
-        redirect('konsumen');
-      }
+
+    }public function hapus($id_konsumen){
+		$id_konsumen = $id_konsumen;
+		$this->db->delete('tbl_konsumen', ['id_konsumen' => $id_konsumen]);
+		redirect('/konsumen');
+	}
     
     
    }

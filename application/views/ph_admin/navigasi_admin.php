@@ -3,7 +3,7 @@
 <div id="wrapper">
 
 <!-- Sidebar -->
-<ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar">
+<ul class="navbar-nav bg-gradient-light sidebar sidebar-light accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
@@ -25,7 +25,7 @@
     <li class="nav-item active">
         <a class="nav-link" href="admin">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Tampilan Awal</span></a>
+            <span>Dashboard</span></a>
     </li>
 
     <!-- Divider -->
@@ -69,20 +69,23 @@
             <i class="fas fa-fw fa-credit-card"></i>
             <span>Transaksi</span></a>
     </li>
-    <!-- Nav Item - Logout -->
-    <li class="nav-item">
-        <a class="nav-link" href="auth/logout">
-        <i class="fas fa-sign-out-alt "></i>
-            <span>Logout</span></a>
-    </li>
+   
 
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">
 
+     <!-- Nav Item - Logout -->
+     <li class="nav-item">
+        <a class="nav-link" href="auth/logout">
+        <i class="fas fa-sign-out-alt "></i>
+            <span>Logout</span></a>
+    </li>
     <!-- Sidebar Toggler (Sidebar) -->
     <div class="text-center d-none d-md-inline">
         <button class="rounded-circle border-0" id="sidebarToggle"></button>
     </div>
+
+    
 
 </ul>
 <!-- End of Sidebar -->

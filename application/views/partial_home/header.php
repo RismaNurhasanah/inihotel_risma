@@ -18,11 +18,11 @@
     </head>
         <style>
             header.masthead {
-                padding-top: 12rem;
+                padding-top: 20rem;
                 padding-bottom: 24rem;
                 text-align: center;
                 color: #fff;
-                background-image: url("<?= base_url('img/'); ?>/hotel.png");
+                background-image: url("<?= base_url('img/'); ?>/hotel2.jpg");
                 background-repeat: no-repeat;
                 background-attachment: scroll;
                 background-position: center center;

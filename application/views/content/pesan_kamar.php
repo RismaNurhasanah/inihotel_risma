@@ -180,10 +180,10 @@
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
                         <!-- Portfolio item 5-->
-                        <div class="portfolio-item">
+                    <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas- fa-plus fa-3x"></i></div>
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>                               
                                 <img class="img-fluid" src="<?= base_url('img/'); ?>/kamar/family_room.jpg" alt="..." />                            
                             </a>

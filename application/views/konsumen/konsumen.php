@@ -62,7 +62,7 @@
                                         <th><?= $k->no_identitas?></th>
                                         <th><?= $k->no_telp?></th>
                                         <th><a href="<?= base_url('/konsumen/edit/'.$k->id_konsumen)?>"><i class="fas fa-edit"></a></th>
-                                        <th><a href="<?= base_url('/konsumen/hapus'.$k->id_konsumen)?>"><i class="fas fa-trash"></a></th>
+                                        <th><a href="<?= base_url('/konsumen/hapus/' . $k->id_konsumen)?>"><i class="fas fa-trash"></a></th>
                                     </tr>
                                     <?php $no++; }?>
                                 </tbody>

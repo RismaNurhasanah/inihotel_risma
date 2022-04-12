@@ -40,8 +40,9 @@
                                         </tr>
                                 </tfoot>
                                 <tbody>
-                                    <?php $no = 1; 
-                                    foreach($transaksi as $t) { ?>
+                                    <?php $no = 1;
+                                        
+                                        foreach($transaksi as $t) { ?>
                                     <tr>
                                         <th><?= $no?></th>
                                         <th><?= $t->id_user?></th>
